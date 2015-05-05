@@ -1,5 +1,7 @@
 *.aux
 *.log
 *.synctex.gz
+*.bbl
+*.blg
 essay.pdf
 draft.tex
