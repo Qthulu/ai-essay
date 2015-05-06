@@ -2,6 +2,8 @@
   still not quite finish merging all contents from online document to
   draft.org (around 80% done)
 
-##draft.pdf is not what we want!
-it's just for quick peak into how much content so far. Will integrate
-into coling2014.tex tonight. 
+##Around 5 pages now :D
+still missing parts not so familiar to me, but content wise should not
+be big problem (to fill up 8 pages)
+
+
