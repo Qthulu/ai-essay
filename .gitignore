@@ -3,5 +3,6 @@
 *.synctex.gz
 *.bbl
 *.blg
+*.bcf
 essay.pdf
 draft.tex
