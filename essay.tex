@@ -76,7 +76,7 @@ In this essay, we discuss the question of whether machines can have minds. We st
 \section{Introduction}
 \label{sec:introduction}
 
-It all started with the question "Can machines think?". We as human civilisation have been creating tools to solve problems since the beginning of our time. As we grew better at creating tools and collecting them together, we were able to build more and more complex machines upon each other. Then came the computer, a machine first designed as a computational tool, which we later gave the ability to improve itself. Inevitably, we started to feel the uncertainty of what this can lead to.
+It all started with the question "Can machines think?". We as human civilisation have been creating tools to solve problems since the beginning of our time. As we grew better at creating tools and collecting them together, we were able to build more and more complex machines upon each other. Then came the computer, a machine first designed as a computational tool, which we later gave the ability to improve itself\todo{I don't know what the authors mean but I don't recall this ever happening}. Inevitably, we started to feel the uncertainty of what this can lead to.
 
 Alan Turing avoided answering this question by introducing an imitation game experiment \cite{turing1950computing}. Can machines behave indistinguishably as human from another human observer's perspective? This experiment itself raised another discussion among computer scientists and philosophers. As researchers in various areas improved from the time of Turing, instead of asking if machines think, we would like to explore the question of whether machines can have minds.
 
@@ -97,19 +97,19 @@ Alan Turing avoided answering this question by introducing an imitation game exp
 %%%%%%%%%%%%%%
 
 \subsection{Strong versus weak AI}
-
+\todo{It’s more important to get the definition of minds, machines, and intelligence than comparing strong and weak AI in the introduction}
 Before we dive into the discussion regarding machines with their minds, a clear framework should be illustrated in order to achieve the most fruitful discussion. We often hear "strong AI" and "weak AI" in the domain of artificial intelligence research, but these phrases can actually have two different meanings. Since the terms overlap, they are sometimes accidentally confused. We would like to clear the distinctions here.
 
 \subsubsection*{Strong and weak AI used in computational theory of mind}
 
-John Searle is often regarded as the first person to use the term "strong AI" in this definition in his "Minds, brains, and programs" \cite{searle1980minds}. According to John Searle, "strong AI" claims that programs (or programmed computers) that correctly maps the right input to the right output, should be regarded as possessing a mind just like humans possess minds. On the other hand, "weak AI" (discussed more in Section \ref{sec:what_is_a_mind}) claims this mapping is merely an imitation of mind and so cannot be accounted as a real mind. Searle's famous Chinese room thought experiment, which is explained in more detail in Section \ref{sec:chinese_room}, serves as a refutation to strong AI claims. In this thought experiment, Searle introduced the concept of "intentionality" which is not possible to model or include in any program. A man in this Chinese room can perform a task perfectly by following the given instructions and rules while not knowing any Chinese. No intentionality at all is involved in the tasks carried out. 
+John Searle is often regarded as the first person to use the term "strong AI" in this definition in his "Minds, brains, and programs" \cite{searle1980minds}. According to John Searle, "strong AI" claims that programs (or programmed computers) that correctly maps the right input to the right output, should be regarded as possessing a mind just like humans possess minds. On the other hand, "weak AI" (discussed more in Section \ref{sec:what_is_a_mind}) claims this mapping is merely an imitation of mind and so cannot be accounted as a real mind. Searle's famous Chinese room thought experiment\todo{mentioning the Chinese room experiment on the first page is a bit confusing because it is only explained afterwards}, which is explained in more detail in Section \ref{sec:chinese_room}, serves as a refutation to strong AI claims. In this thought experiment, Searle introduced the concept of "intentionality" which is not possible to model or include in any program. A man in this Chinese room can perform a task perfectly by following the given instructions and rules while not knowing any Chinese. No intentionality at all is involved in the tasks carried out. 
 %Another way of understanding the difference is by looking into the actual actions carried out in the Chinese room experiment, one can describe the instruction-following guy only access the syntax rules of Chinese, not the semantics of Chinese he/she been given.
 
 \subsubsection*{Strong and weak AI used to describe the ability to solve general problems within a single agent}
-
+\todo{the titles used for strong and weak AI are quite long that they’re more like sentences than titles.}
 Sometimes also referred to as full AI, strong AI in this branch can be defined as an agent which can demonstrate the ability to perform any intellectual task that humans are capable of \cite{kurzweil2005singularity}. That is, an agent can solve tasks that are not predetermined on a level matching a human. If there exists an artificial intelligence agent which can pass the Turing test, one can classify it as strong AI or full AI because it demonstrates the ability to perform tasks in terms of natural language dialogue equivalent (or indistinguishable from a third person's observation) to human level. 
 %Passing the Turing test might not suggest the agent can solve "any" task humans can, which can be too vague to achieve (infinite list of task).
-However, the general consensus is that general intelligence must accomplish the following:
+However, the general consensus is that general intelligence must accomplish the following: \todo{This stick to me as not supported, because it could be debated.} \todo{the "general consensus" that general intelligence must accomplish the given set of 5 skills is also debatable and probably requires a citation to support}
 \begin{enumerate}
 \item reasoning
 \item learning
@@ -166,7 +166,7 @@ A more general view would be that some set of aspects of intelligence such as sp
 \label{sec:discussion}
 
 \subsection{How to test if an agent possesses a mind?}
-
+\todo{a recommendation would be to switch 2.2 and 2.1, so that the authors would first explain how the mind would arise in biological as well as artificial beings.}
 Previously we noted that depending on the definition of mind, several animals could be thought of as having a mind or not. So instead of attempting to resolve this ambiguity we will attempt 
 %Since it is quite hard to know what a mind is in general we instead attempt 
 to answer the question of whether a machine can possess a human mind, that is to think like a human.
@@ -232,7 +232,7 @@ At the universities of Sheffield and Sussex, researchers are cooperating in the 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \section{Conclusion}
 \label{sec:conclusion}
-
+\todo{This section is written very badly especially when compared to the previous two sections.}
 \subsection{Does it matter?}
 
 \subsubsection*{Before we start, you have to know they don't care!}
@@ -247,7 +247,7 @@ Another question worthy considering would be: "If a computer, provided with the 
 %\end{sketch}
 
 \subsubsection*{$(\mbox{simple mind})^n = \mbox{complex mind}$?}
-Brains are too complex to recreate or mimic at the time of writing. Yet, if it is possible to show, our direction of work is on the right track. The examples shown in Section \ref{sec:simpleminds} can maybe offer us some confidence. One can either build very simple units (replicating slime mould or neurons) or assemble meta-complex brains like bee's. Given previous studies on composition, or to say components, of human mind, it could be possible even with smaller scale of minds, like those of bees, can lead us to some association of certain functions of mind to its corresponding circuitry. Or by focusing on single simple cell replications, like slime mould, and grouping large quantities of these simple agents for performing complex behaviour in order to help us understand how to transform basic communication of individual agents into higher level patterns which in turn trigger complex behaviours. Although there exists technological limitations, for instance a maximum computation power per single chip before causing meltdown on chip itself, we can still combine many known principles from the development of modern computer systems in attempts to explore more possibilities. 
+Brains are too complex to recreate or mimic at the time of writing. Yet, if it is possible to show, our direction of work is on the right track\todo{This sentence makes no sense, for example.}. The examples shown in Section \ref{sec:simpleminds} can maybe offer us some confidence. One can either build very simple units (replicating slime mould or neurons) or assemble meta-complex brains like bee's. Given previous studies on composition, or to say components, of human mind, it could be possible even with smaller scale of minds, like those of bees, can lead us to some association of certain functions of mind to its corresponding circuitry. Or by focusing on single simple cell replications, like slime mould, and grouping large quantities of these simple agents for performing complex behaviour in order to help us understand how to transform basic communication of individual agents into higher level patterns which in turn trigger complex behaviours. Although there exists technological limitations, for instance a maximum computation power per single chip before causing meltdown on chip itself, we can still combine many known principles from the development of modern computer systems in attempts to explore more possibilities. 
 
 \subsubsection*{Our limits need not apply}
 If we regard programs  as form of intelligence and mindful thing, machine intelligence shouldn't be confined (or defined) by limitations of humans. Maybe one can argue computers will never be able to understand true semantics of our natural languages, but this would be a very narrow view. Our natural languages have resulted from cultural evolution separated by geographical boundaries, and if we review history of mankind, the flaws in natural language causing misunderstanding or semantic mismatch have cost us dearly. Yet all civilisation throughout the world seems to reach one unified syntax when it comes to mathematics. The connection from its syntax to semantics are so absolute that we still use zero to represent the very same concept as when zero was invented. Computers and programs are born in the world of math, binary or not, there exists no doubt that computers are much capable than humans in field of numbers. Needless to say the speed of computation carry out by computers, easily reaching to petaflop at the time of writing, can never be achieved by our biological limits.
@@ -257,7 +257,7 @@ It is truth saying human brains are most complex masterpiece of nature, evolutio
 Embracing such perspective, and one will find huge potential in development of machines. As mentioned, all our cultures are geologically separated, so are all the individuals of mankind. Our communication forms are still very limited, even with aid from machines. Given the power of almost instantaneous connection, the accumulated knowledge of machines must eventually exceed ours.
 %evolution curve of machine must exceed ours. 
 
-\subsection{Final words}
+\subsection{Final words} \todo{The last words could be expanded or debated.}
 As we have seen, it can be hard to define what a mind really is and how to test it. 
 As Goertzel noted, detecting partial progress is even harder. 
 On the bright side, this may mean that we are closer to achieving a conscious machine than we think, but it can also discourage people from trying. 
